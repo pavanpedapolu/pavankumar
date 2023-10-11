@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // task1
+        var a = +prompt("enter number")
+        if (a % 2 == 0) {
+            alert("even number")
+        }
+        else {
+            alert("odd number")
+        }
+        // task2
+        var b = prompt(" enter year")
+        if ((b % 4 == 0) && (b % 100 != 0) || (b % 400 == 0)) {
+            alert("enter year is leap year");
+        }
+        else {
+            alert("not a leap year");
+
+        }
+        // task3
+        var num1 = prompt(" enter the first value");
+        var num2 = prompt(" enter the ssecond value");
+        var num3 = prompt(" enter the third value");
+        var v;
+        if (num1 >= num2 && num1 >= num3) {
+            v = num1;
+
+        }
+        else if (num2 >= num1 && num2 >= num3) {
+            v = num2
+            alert = (" numbers are equel")
+        }
+        else {
+            v = num3
+
+        }
+        alert(v)
+        // task6
+        var traffic = prompt("follow the traffic rules")
+        switch (traffic) {
+            case "red": alert("stop")
+                break;
+            case "yellow": alert("slow down")
+                break;
+            case "orange": alert("ready to go")
+                break;
+            case "green": alert("go")
+                break;
+        }
+        // task7
+        var month = prompt("enter month")
+        switch (month) 
+        {
+            case "january": alert(" winter season")
+                break;
+            case "febrauary": alert(" winter season")
+                break;
+            case "march": alert(" summer season")
+                break;
+            case "april": alert(" summer season")
+                break;
+            case "may": alert("summer season")
+                break;
+            case "june": alert("monsoon season")
+                break;
+            case "july": alert("monsoon season")
+                break;
+            case "august": alert("monsoon season")
+                break;
+            case "september": alert("monsoon season")
+                break;
+            case "october": alert("autumn season")
+                break;
+            case "november": alert("autumn season")
+                break;
+            case "december": alert("autumn season")
+            break;
+        }
+        // task8
+     var select = prompt("favourite icecream")
+        switch (select)
+       {
+        case "coneicecream":alert("80rs")
+        break;
+        case "vennala":alert("90rs")
+        break;
+        case "chocolate":alert("70rs")
+        break;
+        case "blueberry":alert("89rs")
+        break;
+        case "butterscotch":alert("99rs")
+        break;
+
+        }
+
+
+
+       
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
