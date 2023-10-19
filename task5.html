@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                document.write(j);
+            }
+            document.write('<br>');
+            
+        }
+
+        for(i=1;i<=5;i++){
+            for(j=1;j<=i;j++){
+                document.write("*");
+            }
+            document.write('<br>');
+            
+        }
+
+        var b="*";
+        for(i=1;i<=5;i++){
+            document.write(b.repeat(i),"<br>");
+        }
+
+        document.write("<br>");
+
+        debugger
+        for(i=5;i>=1;i--){
+            for(j=1;j<=i;j++){
+                document.write("*");
+            }
+            document.write('<br>');
+            
+        }
+
+
+        function print(a){
+            for(i=a;i>=1;i--){
+            for(j=1;j<=i;j++){
+                document.write(j);
+            }
+            document.write('<br>');   
+        }
+
+        }
+
+        print(6);
+        print(10);
+
+        function star(a){
+            for(i=a;i>=1;i--){
+            for(j=1;j<=i;j++){
+                document.write("*");
+            }
+            document.write('<br>');   
+        }
+
+        }
+        star(10);
+
+
+
+        // var str ="madhu";
+
+        // var str2="";
+
+
+        // for(i=1;i<=str.length;i++){
+        //     document.write(str);
+        // }
+
+        
+        
+
+
+    </script>
+    
+</body>
+</html>
