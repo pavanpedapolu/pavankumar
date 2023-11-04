@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstdiv{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-size: smaller;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="first">
+            <h1>PAVANKUMAR PEDAPOLU</h2>
+            <h4>&#9993;PAVANPEDAPOLU1999@GMAIL.COM</h4>
+            <h4>&#9742;7981497809</h4>
+            <h4><address>
+                kodurupadu ,newcolony, nellorerural mandal,
+                nellore district pin no:524314
+            </address></h4>
+        </div>
+        <hr>
+        <div>
+            <h2>OBJECTIVE</h2>
+            <p>To work in a professional environment where I can contribute myself and enrich my
+                skills according to the latest technologies and to work towards achieving my goal.</p>
+        </div>
+        <hr>
+        <div>
+            <h2>EDUCATION</h2>
+            <ul>
+                <li><h3>Bachelor degree(BCA)</h3><p>KRISHNA CHAITANYA DEGREE COLLEGE</p>
+                <p>7.8GPA</p>
+                <p>2020-2023</p></li>
+                <li><h3>Intermediate(mpc)</h3><p>DR.APJ ABDULKALAM JUNIOR COLLEGE</p>
+                    <p>6.8</p>
+                    <p>2019-2020</p></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>TECHNICAL SKILLS</h2>
+            <ul>
+                <!-- <li>ADOBE PHOTOSHOP,ADOBE ILLUSTRATOR</li> -->
+                <li>MS EXCEL</li>
+                <!-- <li></li> -->
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>PERSONAL STRENGTHS</h2>
+            <ul>
+                <li>Positive Attitude</li>
+                <li>Good Communication skills</li>
+                <li>Hard Working</li>
+                <li>Quick Learner</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>INTERESTS</h2>
+            <ul>
+                <li>Sports, Trakking, New innovative technologies.</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>LANGUAGES</h2>
+            <ul>
+                <li>Telug,English</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h2>DECLARATION</h2>
+            <p>I hereby declare that all the above information is true and correct to the
+                best of my knowledge and belief.</p>
+        </div>
+
+    </div>
+    <script>
+        var maindiv= document.getElementById("parent");
+        maindiv.style.width = "75%";
+        maindiv.style.height = "100%";
+        maindiv.style.margin="0 50px 0 50px";
+        
+        var firstdiv= document.getElementsByClassName("first");
+        firstdiv[0].style.backgroundColor= "gray";
+        firstdiv[0].style.padding ="5px"
+        firstdiv[0].setAttribute("id","firstdiv");
+
+        var heading=document.getElementsByTagName("h2");
+        for(i=0;i<heading.length;i++){
+            heading[i].style.color="orange";
+        }
+    </script> 
+</body>
+</html>
